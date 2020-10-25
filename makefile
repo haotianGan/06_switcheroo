@@ -1,2 +1,5 @@
 all:
-	gcc work.c
+	gcc -o work.pickle work.c
+
+run:
+	./work.pickle
